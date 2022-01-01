@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@charset "UTF-8";
+
+/* common */
+
+body {
+  /* font-family: "ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","游ゴシック Medium","Yu Gothic Medium","游ゴシック","Yu Gothic","游ゴシック体",YuGothic,"メイリオ",Meiryo,sans-serif; */
+  font-family: "DM Sans","游ゴシック Medium","Yu Gothic Medium","游ゴシック","Yu Gothic","游ゴシック体","YuGothic";
+	@apply text-gray-600 bg-gray-50 font-light text-sm;
+}
+
+input, textarea {
+  -webkit-appearance: none;
+}
+
+h1[id]::before {
+  @apply block h-24;
+  margin-top: -6rem;
+  content: "";
+}
+
+.hover-transform:hover {
+  @apply transform scale-105 transition duration-300 shadow-lg;
+}
+
+* {
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+
+/* skill card */
+
+@media (min-width: 521px) {
+	.work-material-card {
+    width: calc((100% - 32px) / 2);
+  }
+}
+@media (max-width: 520px) {
+	.work-material-card {
+    @apply max-w-xs w-full;
+  }
+}
