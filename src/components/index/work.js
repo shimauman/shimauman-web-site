@@ -11,7 +11,7 @@ export default function Work() {
 
   return (
     <section className="mb-24">
-      <div className="mb-4 w-10/12 max-w-md mx-auto">
+      <div className="w-10/12 max-w-md mx-auto">
         {works.map((work, index) => (
           <WorkCard
             title={work.title}
