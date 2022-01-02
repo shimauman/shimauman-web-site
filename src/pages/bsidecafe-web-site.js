@@ -1,7 +1,7 @@
 import React from "react"
 import { graphql } from "gatsby"
 import WorkDetail from "../templates/workDetail"
-import animationAssort from "../animations/b-side-cafe/animationAssort"
+import animationAssort from "../animations/bsidecafe/animationAssort"
 
 export default function BSideCafeWebSite({ data, location }) {
   return (
@@ -12,7 +12,7 @@ export default function BSideCafeWebSite({ data, location }) {
       pageImage=""
       workHeadline="B side cafe Web Site"
       workDescription="B side cafeのウェブサイトを作成しました。"
-      workReference={{label: "URL :", url: "https://b-side-cafe.netlify.app/"}}
+      workReference={{label: "URL :", url: "https://bsidecafe.netlify.app/"}}
       workTools={[
         {label: "Development Tools", names: "Adobe XD / Gatsby.js / Contentful / Netlify"},
         {label: "Material Creation Tools", names: "Adobe Photoshop / Adobe Illustrator / Adobe After Effects"},
