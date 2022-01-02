@@ -7,6 +7,7 @@ import Skill from "../components/index/skill"
 import Tool from "../components/index/tool"
 import ContactButton from "../components/index/contactButton"
 import Work from "../components/index/work"
+import Contact from "../components/index/contact"
 
 export default function index() {
   return <Layout>
@@ -17,5 +18,6 @@ export default function index() {
     <Tool />
     <ContactButton />
     <Work />
+    <Contact />
   </Layout>
 }

@@ -5,7 +5,7 @@ const dmSans = require("@fontsource/dm-sans/latin-400.css")
 module.exports = dmSans
 
 exports.onRouteUpdate = () => {
-  const form = document.getElementById('mail_form');
+  const form = document.getElementById('mail-form');
   if (form) {
     form.reset();
   }
