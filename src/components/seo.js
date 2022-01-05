@@ -23,7 +23,7 @@ export default function Seo({ pageTitle, pageDescription, pagePath, pageImage, p
 
   const url = pagePath ? `${siteMetadata.siteUrl}${pagePath}` : siteMetadata.siteUrl
 
-  const imageUrl = pageImage ? `${siteMetadata.siteUrl}/${pageImage}` : newsImage || `${siteMetadata.siteUrl}/thumbnail-main.png`
+  const imageUrl = `${siteMetadata.siteUrl}/ogp-thumbnail.png`
   const imageWidth = pageImageWidth || 1200
   const imageHeight = pageImageHeight || 630
 
