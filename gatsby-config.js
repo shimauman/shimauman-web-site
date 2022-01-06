@@ -17,7 +17,7 @@ module.exports = {
   /* Your site config here */
   siteMetadata: {
       title: `Shimauma`,
-      description: `Shimaumaのウェブサイト`,
+      description: `Shimaumaの経歴や作品をまとめたウェブサイトです。`,
       lang: `ja`,
       siteUrl: `https://qbel.netlify.app/`,
       locale: `ja_JP`,

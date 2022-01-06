@@ -20,9 +20,7 @@ export default function SpasCurryMusicStreamingAnimationThumbnail({ location }) 
   return (
     <WorkDetail
       pageTitle="SPAS CURRY Youtube 24/7 Music Streaming Animation Thumbnail"
-      pageDescription="SPAS CURRY Youtube 24/7 Music Streaming Animation Thumbnailについての詳細ページ"
       pagePath={location.pathname}
-      pageImage=""
       workHeadline="SPAS CURRY Youtube 24/7 Music Streaming Animation Thumbnail"
       workDescription="SPAS CURRY Youtube チャンネルの24/7ミュージック配信のサムネイルアニメーションを作成しました。"
       workReference={{label: "SPAS CURRY :", url: "https://www.youtube.com/c/SPASCURRY/featured"}}

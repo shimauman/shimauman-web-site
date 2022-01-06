@@ -10,9 +10,8 @@ export default function WorkDetail(props) {
     <Layout>
       <Seo
         pageTitle={props.pageTitle}
-        pageDescription={props.pageDescription}
+        pageDescription={props.workDescription}
         pagePath={props.pageUrl}
-        pageImage={props.pageThumbnail}
       />
 
       <section className="mb-24 pt-12">

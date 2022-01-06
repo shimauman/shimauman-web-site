@@ -7,9 +7,7 @@ export default function BSideCafeWebSite({ data, location }) {
   return (
     <WorkDetail
       pageTitle="B side cafe Web Site"
-      pageDescription="B side cafe Web Siteについての詳細ページ"
       pagePath={location.pathname}
-      pageImage=""
       workHeadline="B side cafe Web Site"
       workDescription="B side cafeのウェブサイトを作成しました。"
       workReference={{label: "URL :", url: "https://bsidecafe.netlify.app/"}}

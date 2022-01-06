@@ -7,9 +7,7 @@ export default function QbelWebSite({ data, location }) {
   return (
     <WorkDetail
       pageTitle="Qbel Web Site"
-      pageDescription="Qbel Web Siteについての詳細ページ"
       pagePath={location.pathname}
-      pageImage=""
       workHeadline="Qbel Web Site"
       workDescription="子供達の思考力とコミュニケーション力を育てる活動Qbelのウェブサイトを作成しました。"
       workReference={{label: "URL :", url: "https://qbel.netlify.app/"}}
