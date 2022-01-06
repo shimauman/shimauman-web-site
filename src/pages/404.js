@@ -1,30 +1,22 @@
 import React from "react"
 import Seo from "../components/seo"
-import { StaticImage } from "gatsby-plugin-image"
+import { Link } from "gatsby"
 import "../styles/global.css"
 
 export default function NoFoundPage({ location }) {
   return (
     <div>
       <Seo
-        pageTitle = "ページが見つかりません"
-        pageDescription="404のページです。"
+        pageTitle = "Not found"
+        pageDescription="お探しのページは見つかりません。"
         pagePath = {location.pathname}
       />
 
-      <div className="pt-32 h-screen w-full bg-white overflow-y-auto">
-          {/* <figure className="mb-8 w-64 mx-auto">
-            <StaticImage
-              src="../images/not-found.png"
-              alt=""
-              className=""
-              layout="fullWidth"
-            />
-          </figure> */}
-
-          <p className="mb-32 text-gray-500 text-center text-sm">
-            お探しのページが見つかりません。
-          </p>
+      <div className="h-screen w-full bg-white flex flex-col justify-center items-center">
+        <p className="mb-8 text tracking-wide">
+          Page is not found.
+        </p>
+        <Link to={`/`} className="text-xs">Shimauma Top Page &gt;</Link>
       </div>
     </div>
   )
