@@ -19,7 +19,7 @@ module.exports = {
       title: `Shimauma`,
       description: `Shimaumaの経歴や作品をまとめたウェブサイトです。`,
       lang: `ja`,
-      siteUrl: `https://qbel.netlify.app/`,
+      siteUrl: `https://shimauma.netlify.app/`,
       locale: `ja_JP`,
       facebookId: `facebook`,
   },
