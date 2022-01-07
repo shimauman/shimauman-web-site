@@ -15,7 +15,7 @@ export default function QbelWebSite({ data, location }) {
         {label: "Development Tools", names: "Adobe XD / Gatsby.js / Contentful / Netlify"},
         {label: "Material Creation Tools", names: "Adobe Photoshop / Adobe Illustrator / Adobe After Effects"},
       ]}
-      workMaterialImages={data.allContentfulShimaumaWorkImageMaterial.edges}
+      workMaterialImages={data.allContentfulShimaumanWorkImageMaterial.edges}
       workMaterialAnimations={animationAssort}
     />
   )
@@ -23,7 +23,7 @@ export default function QbelWebSite({ data, location }) {
 
 export const query = graphql`
   query {
-    allContentfulShimaumaWorkImageMaterial(
+    allContentfulShimaumanWorkImageMaterial(
       filter: {workIndex: {eq: 1}}
     ) {
       edges {

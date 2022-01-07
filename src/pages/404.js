@@ -16,7 +16,7 @@ export default function NoFoundPage({ location }) {
         <p className="mb-8 text tracking-wide">
           Page is not found.
         </p>
-        <Link to={`/`} className="text-xs">Shimauma Top Page &gt;</Link>
+        <Link to={`/`} className="text-xs">Top Page &gt;</Link>
       </div>
     </div>
   )

@@ -5,7 +5,7 @@ export default function Work() {
   const works = [
     {title: "Qbel Web Site", index: 1, url: `/qbel-web-site/`},
     {title: "B side cafe Web Site", index: 2, url: `/bsidecafe-web-site/`},
-    {title: "Shimauma Web Site", index: 3, url: `/`},
+    {title: "Shimauman Web Site", index: 3, url: `/`},
     {title: "SPAS CURRY Youtube 24/7 Music Streaming Animation Thumbnail", index: 4, url: `/spascurry-music-streaming-animation-thumbnail/`},
   ]
 

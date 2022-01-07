@@ -16,10 +16,10 @@ const myCustomQueries = {
 module.exports = {
   /* Your site config here */
   siteMetadata: {
-      title: `Shimauma`,
-      description: `Shimaumaの経歴や作品をまとめたウェブサイトです。`,
+      title: `Shimauman`,
+      description: `Shimaumanの経歴や作品をまとめたウェブサイトです。`,
       lang: `ja`,
-      siteUrl: `https://shimauma.netlify.app/`,
+      siteUrl: `https://shimauman.netlify.app/`,
       locale: `ja_JP`,
       facebookId: `facebook`,
   },

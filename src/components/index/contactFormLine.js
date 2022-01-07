@@ -13,7 +13,7 @@ export default function ContactFormLine() {
       </p>
 
       <a className="block border border-gray-500 text-center py-3 tracking-wide">
-        Shimauma公式LINEアカウント
+        Shimauman公式LINEアカウント
       </a>
     </div>
   )

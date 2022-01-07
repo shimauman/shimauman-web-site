@@ -8,7 +8,7 @@ export default function Profile() {
   return (
     <section className="mb-16 pt-12">
       <div className="mb-4 w-10/12 max-w-md mx-auto flex items-center">
-        <p className="">Shimauma</p>
+        <p className="">Shimauman</p>
       </div>
 
       <div className="w-full max-w-md mx-auto flex flex-col">
