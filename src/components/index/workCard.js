@@ -11,7 +11,7 @@ export default function WorkCard(props) {
       return (<StaticImage src="../../images/bsidecafe-web-site.jpg" alt={`Image of ${workTitle}`} />)
     }
     if (workIndex === 3) {
-      return (<StaticImage src="../../images/qbel-web-site.jpg" alt={`Image of ${workTitle}`} />)
+      return (<StaticImage src="../../images/shimauman-web-site.jpg" alt={`Image of ${workTitle}`} />)
     }
     if (workIndex === 4) {
       return (<StaticImage src="../../images/spascurry-live-thumbnail.jpg" alt={`Image of ${workTitle}`} />)
