@@ -12,7 +12,7 @@ export default function BSideCafeWebSite({ data, location }) {
       workDescription="B side cafeのウェブサイトを作成しました。"
       workReference={{label: "URL :", url: "https://bsidecafe.netlify.app/"}}
       workTools={[
-        {label: "Development Tools", names: "Adobe XD / Gatsby.js / Contentful / Netlify"},
+        {label: "Development Tools", names: "Adobe XD / Gatsby.js / Tailwind CSS / Contentful / Netlify"},
         {label: "Material Creation Tools", names: "Adobe Photoshop / Adobe Illustrator / Adobe After Effects"},
       ]}
       workMaterialImages={data.allContentfulShimaumanWorkImageMaterial.edges}

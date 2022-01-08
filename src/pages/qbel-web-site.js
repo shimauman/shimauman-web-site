@@ -12,7 +12,7 @@ export default function QbelWebSite({ data, location }) {
       workDescription="子供達の思考力とコミュニケーション力を育てる活動Qbelのウェブサイトを作成しました。"
       workReference={{label: "URL :", url: "https://qbel.netlify.app/"}}
       workTools={[
-        {label: "Development Tools", names: "Adobe XD / Gatsby.js / Contentful / Netlify"},
+        {label: "Development Tools", names: "Adobe XD / Gatsby.js / Tailwind CSS / Contentful / Netlify"},
         {label: "Material Creation Tools", names: "Adobe Photoshop / Adobe Illustrator / Adobe After Effects"},
       ]}
       workMaterialImages={data.allContentfulShimaumanWorkImageMaterial.edges}
