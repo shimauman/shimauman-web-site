@@ -12,7 +12,7 @@ export default function WorkOverview(props) {
           <span>{props.reference.label}</span>
         </p>
 
-        <a href="https://qbel.netlify.app/" target="_blank" rel="noopener noreferrer" className="inline-block mb-1 text-blue-400 break-all">
+        <a href={props.reference.url} target="_blank" rel="noopener noreferrer" className="inline-block mb-1 text-blue-400 break-all">
           <span className="border-b border-blue-400">{props.reference.url}</span>
         </a>
       </div>
