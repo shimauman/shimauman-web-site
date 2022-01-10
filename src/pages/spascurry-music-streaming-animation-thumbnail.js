@@ -3,11 +3,11 @@ import WorkDetail from "../templates/workDetail"
 
 export default function SpasCurryMusicStreamingAnimationThumbnail({ location }) {
   const workElement = (
-    <div className="w-full" style={{ aspectRatio: "16 / 9" }}>
+    <div className="relative h-0 overflow-hidden" style={{ paddingBottom: "56.25%" }}>
       <iframe
-        className="w-full h-full"
-        width={640}
-        height={360}
+        className="absolute top-0 left-0 w-full h-full"
+        width={1280}
+        height={720}
         src="https://www.youtube.com/embed/rL4M3cXNKRY"
         title="YouTube video player"
         frameBorder={0}
