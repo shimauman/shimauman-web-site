@@ -12,8 +12,8 @@ export default function ContactFormLine() {
         <span className="inline-block text-left leading-relaxed text-gray-400">以下のLINEアカウントの登録ボタンを押した後、LINEにてメッセージをお送りください。</span>
       </p>
 
-      <a className="block border border-gray-500 text-center py-3 tracking-wide">
-        Shimauman公式LINEアカウント
+      <a href="https://line.me/ti/p/Z1R6OBk1g6" target="_blank" rel="noopener noreferrer" className="block border border-gray-500 text-center py-3 tracking-wide">
+        Shimauman LINEアカウント
       </a>
     </div>
   )
