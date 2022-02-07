@@ -14,6 +14,9 @@ export default function WorkCard(props) {
       return (<StaticImage src="../../images/shimauman-web-site.jpg" alt={`Image of ${workTitle}`} />)
     }
     if (workIndex === 4) {
+      return (<StaticImage src="../../images/shimauman-tils.jpg" alt={`Image of ${workTitle}`} />)
+    }
+    if (workIndex === 5) {
       return (<StaticImage src="../../images/spascurry-live-thumbnail.jpg" alt={`Image of ${workTitle}`} />)
     }
   }

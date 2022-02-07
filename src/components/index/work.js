@@ -6,7 +6,8 @@ export default function Work() {
     {title: "Qbel Web Site", index: 1, url: `/qbel-web-site/`},
     {title: "B side cafe Web Site", index: 2, url: `/bsidecafe-web-site/`},
     {title: "Shimauman Web Site", index: 3, url: `/shimauman-web-site/`},
-    {title: "SPAS CURRY Youtube 24/7 Music Streaming Animation Thumbnail", index: 4, url: `/spascurry-music-streaming-animation-thumbnail/`},
+    {title: "Shimauman Tils", index: 4, url: `/shimauman-tils/`},
+    {title: "SPAS CURRY Youtube 24/7 Music Streaming Animation Thumbnail", index: 5, url: `/spascurry-music-streaming-animation-thumbnail/`},
   ]
 
   return (
