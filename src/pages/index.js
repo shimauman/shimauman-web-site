@@ -13,7 +13,7 @@ export default function index() {
     <Seo />
     <Profile />
     <History />
-    <Skill />
+    {/* <Skill /> */}
     <ContactButton />
     <Work />
     <Contact />
