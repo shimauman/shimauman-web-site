@@ -14,7 +14,7 @@ export default function Profile() {
       <div className="w-full max-w-md mx-auto flex flex-col">
         <figure className="w-3/4">
           <StaticImage
-            src="../../images/profile.jpg"
+            src="../../images/profile.png"
             alt=""
           />
         </figure>
