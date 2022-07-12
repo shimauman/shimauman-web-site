@@ -9,7 +9,7 @@ export default function QbelWebSite({ data, location }) {
       pageTitle="Qbel Web Site"
       pagePath={location.pathname}
       workHeadline="Qbel Web Site"
-      workDescription="子供達の思考力とコミュニケーション力を育てる活動Qbelのウェブサイトを作成しました。"
+      workDescription="子供達の思考力とチームワーク力を育てる活動Qbelのウェブサイトを作成しました。"
       workReference={{label: "URL :", url: "https://qbel.netlify.app/"}}
       workTools={[
         {label: "Development Tools", names: "Adobe XD / Gatsby.js / Tailwind CSS / Contentful / Netlify"},
