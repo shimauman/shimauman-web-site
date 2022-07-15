@@ -12,9 +12,9 @@ export default function Profile() {
       </div>
 
       <div className="w-full max-w-md mx-auto flex flex-col">
-        <figure className="w-3/4">
+        <figure className="w-3/5">
           <StaticImage
-            src="../../images/profile.png"
+            src="../../images/profile.jpg"
             alt=""
           />
         </figure>
